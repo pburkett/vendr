@@ -17,11 +17,14 @@
             <a class="navbar-brand" href="#">
                 <img src="assets/img/logo.png" width="45" height="45" alt="" loading="lazy">
                 <span class="ml-2">vendr</span>
+                <button onclick="app.currencyController.addQuarter()" class="btn ml-5 bg-primary text-light">Deposit
+                    quarter</button>
+                <div id="quarter-display">0 Quarters</div>
             </a>
         </nav>
     </header>
     <main>
-        <div id="app"></div>
+        <div class="container-fluid " id="app"></div>
     </main>
     <footer class="container-fluid bg-dark text-light">
         <div class="row text-center">

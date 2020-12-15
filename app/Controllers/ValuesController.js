@@ -5,6 +5,7 @@ import { valuesService } from "../Services/ValuesService.js";
 //Private
 function _draw() {
   let values = ProxyState.values;
+
   let template = ''
   values.forEach(v => template += v.Template)
   document.getElementById("app").innerHTML = /*html*/`
